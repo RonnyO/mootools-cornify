@@ -8,7 +8,7 @@
 	<h1>Enter the Konami Code for instant happyness.</h1>
 <script src="http://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
 
-<script>(function(g){var kkeys=[],knm="38,38,40,40,37,39,37,39,66,65",d=document;function keydown(e){kkeys.push(e.code);if(kkeys.join(',').indexOf(knm)>-1){g.removeEvent('keydown',keydown);new Element('script',{src:"http://www.cornify.com/js/cornify.js",events:{'load':function(){if(g.cornami)clearTimeout(g.cornami.clear);g.addEvent('keydown',(!cornify_add()&&cornify_add));}}}).inject(d.head);}}
+<script>/* https://github.com/RonnyO/mootools-cornify */ (function(g){var kkeys=[],knm="38,38,40,40,37,39,37,39,66,65",d=document;function keydown(e){kkeys.push(e.code);if(kkeys.join(',').indexOf(knm)>-1){g.removeEvent('keydown',keydown);new Element('script',{src:"http://www.cornify.com/js/cornify.js",events:{'load':function(){if(g.cornami)clearTimeout(g.cornami.clear);g.addEvent('keydown',(!cornify_add()&&cornify_add));}}}).inject(d.head);}}
 g.addEvent('keydown',keydown);})(this);</script>
 </body>
 </html>
